@@ -1,4 +1,4 @@
-package com.my2048.linzg.lin2048;
+package com.homework.right;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -15,11 +15,6 @@ import android.util.Log;
 import android.view.View;
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * 负责游戏界面的绘制
- * Created by lin on 2017/8/4.
- */
 
 public class Game2048View extends View {
     private static final String TAG = "Game2048View";
@@ -394,7 +389,6 @@ public class Game2048View extends View {
         drawScoreBase(backgroundCanvas);
         //drawLogo(backgroundCanvas);
         drawLogoText(backgroundCanvas);
-        drawAboutButton(backgroundCanvas);
         drawNewGameButton(backgroundCanvas);
         drawUndoButton(backgroundCanvas);
         //saveBackgroundBitmap();
@@ -541,14 +535,7 @@ public class Game2048View extends View {
         drawNewGameLogo(canvas);
     }
 
-    private void drawAboutButton(Canvas canvas) {
-        drawButtonBase(canvas,aboutButX,buttonBase);
-        Drawable aboutDraw = ContextCompat.getDrawable(this.getContext(),R.drawable.about_150px);
-        int dsize = (int)(bottomIconH * 0.2f);
-        aboutDraw.setBounds(aboutButX + dsize,bottomY + dsize,aboutButX + bottomIconW - dsize,
-                bottomY + bottomIconH - dsize);
-        aboutDraw.draw(canvas);
-    }
+
     public int getPushButton(float x,float y){
         if (y > bottomY && y < bottomY + bottomIconH) {
             if (x > undoButX && x < undoButX + bottomIconW){

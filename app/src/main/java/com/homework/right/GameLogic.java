@@ -1,4 +1,4 @@
-package com.my2048.linzg.lin2048;
+package com.homework.right;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -7,15 +7,6 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
-/**
- * Created by lin on 2017/8/9.
- */
-
-/**
- * 游戏逻辑类，负责处理游戏的逻辑和数据
- *  Created by asus on 2017/8/4.
- */
 public class GameLogic {
     private static final String TAG = "GameLogic";
     public static final int SLIDE_UP = 1;

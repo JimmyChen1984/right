@@ -2,16 +2,15 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "25.0.0"
     aaptOptions.cruncherEnabled = false
     aaptOptions.useNewCruncher = false
     defaultConfig {
-        applicationId "com.my2048.linzg.my2048"
+        applicationId "com.homework.right"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {

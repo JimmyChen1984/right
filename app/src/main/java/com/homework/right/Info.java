@@ -1,13 +1,9 @@
-package com.my2048.linzg.lin2048;
+package com.homework.right;
 
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
-
-/**
- * Created by lin on 2017/8/29.
- */
 
 public class Info {
     private static final String TAG = "Info";
@@ -76,10 +72,6 @@ public class Info {
                 Log.d(TAG, "draw: isBigger");
                 drawable.setBounds(bigX, bigY, bigEndX, bigEndY);
                 drawable.draw(canvas);
-                if (content == null) {
-                    content = ContextCompat.getDrawable(view.getContext(), R.drawable.info_content);
-                    content.setBounds(bigX, bigY, bigEndX, bigEndY);
-                }
                 if (content != null)
                 content.draw(canvas);
             }else{

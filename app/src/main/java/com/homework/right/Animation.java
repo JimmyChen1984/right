@@ -1,8 +1,4 @@
-package com.my2048.linzg.lin2048;
-
-/**
- * Created by lin on 2017/8/10.
- */
+package com.homework.right;
 
 public class Animation extends Position{
     public static final int TYPE_MOVE = 1;  //卡片移动动画

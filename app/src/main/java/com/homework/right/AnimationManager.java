@@ -1,11 +1,7 @@
-package com.my2048.linzg.lin2048;
+package com.homework.right;
 
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Created by lin on 2017/8/10.
- */
 
 public class AnimationManager {
     private static final int TIME_MOVE_DURATION = 100;

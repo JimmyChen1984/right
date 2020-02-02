@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 
-    package="com.my2048.linzg.lin2048"
+    package="com.homework.right"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/MyMainTheme"
         android:screenOrientation="portrait">
-        <activity android:name="com.my2048.linzg.lin2048.GameActivity"
+        <activity android:name=".MainActivity"
                   android:theme="@style/MyMainTheme"
                   android:screenOrientation="portrait">
             <intent-filter>

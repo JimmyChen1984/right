@@ -1,13 +1,9 @@
-package com.my2048.linzg.lin2048;
+package com.homework.right;
 
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
-
-/**
- * Created by asus on 2017/8/10.
- */
 
 public class GameListener implements View.OnTouchListener {
     private static final String TAG = "GameListener";

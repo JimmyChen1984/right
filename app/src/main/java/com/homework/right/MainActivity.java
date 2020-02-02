@@ -1,4 +1,4 @@
-package com.my2048.linzg.lin2048;
+package com.homework.right;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,11 +12,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
 
-/**
- * Created by asus on 2017/8/4.
- */
-
-public class GameActivity extends Activity {
+public class MainActivity extends Activity {
     private Game2048View gameView = null;
     private SharedPreferences preferences;
     @Override

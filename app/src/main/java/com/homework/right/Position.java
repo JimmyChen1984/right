@@ -1,8 +1,4 @@
-package com.my2048.linzg.lin2048;
-
-/**
- * Created by asus on 2017/8/10.
- */
+package com.homework.right;
 
 public class Position {
     private int mx,my;
